@@ -142,6 +142,11 @@
     background-image: url(../assets/mail.svg);
   }
 }
+.button--download {
+  &:before {
+    background-image: url(../assets/download.svg);
+  }
+}
 
 .list {
   font-size: 18px;

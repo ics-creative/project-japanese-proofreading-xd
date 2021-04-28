@@ -73,6 +73,13 @@
     @include spOnly {
       font-size: 14px;
     }
+    > a {
+      color: currentColor;
+      text-decoration: underline;
+      &:hover {
+        color: #ea5b54;
+      }
+    }
   }
   &_button {
     margin-bottom: 56px;

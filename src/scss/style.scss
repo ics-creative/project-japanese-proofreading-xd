@@ -136,6 +136,13 @@
   }
 }
 
+.button--contact {
+  &:before {
+    width: 20px;
+    background-image: url(../assets/mail.svg);
+  }
+}
+
 .list {
   font-size: 18px;
   text-align: left;
